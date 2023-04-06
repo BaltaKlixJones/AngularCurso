@@ -1,0 +1,19 @@
+input {
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.dias {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    background-color: rgba(137, 43, 226, 0.334);
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    align-items: center;
+    padding: 12px;
+}

@@ -1,0 +1,44 @@
+<div class="m-2">
+    <!-- <button 
+    [ngClass]="{
+        'disabled':btn_disabled,
+        'btn': true,
+        'btn-danger': true
+    }" 
+    (click)="text_color= 'text-danger'">
+        Color rojo
+    </button> -->
+<button [disabled]="btn_disabled" class="btn btn-danger" (click)="text_color= 'text-danger'">
+    Color rojo
+</button>
+
+    <!-- <button [class]="{
+        'disabled':btn_disabled,
+        'btn': true,
+        'btn-success': true,
+        'mx-2': true
+    }"  (click)="text_color= 'text-success'">
+        Color Verde
+    </button> -->
+
+<button [disabled]="btn_disabled"  class="btn btn-success mx-2" (click)="text_color= 'text-success'">
+        Color Verde
+    </button>
+    <!-- <button [class]="{
+        'disabled':btn_disabled
+    }" class="btn btn-primary" (click)="text_color= 'text-primary'">
+        Color Azul
+    </button> -->
+
+<button [disabled]="btn_disabled" class="btn btn-primary" (click)="text_color= 'text-primary'">
+        Color Azul
+    </button>
+</div>
+
+<p [class]="text_color">Texto que cambia de color</p>
+
+<!-- <p>{{text_color}}</p> -->
+
+<button class="btn btn-secondary" (click)="btn_disabled= !btn_disabled">
+    Activar / Desactivar
+</button>
